@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Al-Kalsoom Medical Complex — compassionate, modern healthcare.">
+  <title>Services | Al-Kalsoom Medical Complex</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="navbar">
+  <div class="container nav-inner">
+    <a class="logo" href="index.html" aria-label="Al-Kalsoom Medical Complex home">
+      <span class="logo-mark">✚</span>
+      <span>Al-Kalsoom Medical Complex</span>
+    </a>
+    <button class="menu-btn" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="staff.html">Staff</a>
+      <a href="contact.html">Contact</a>
+      <a href="appointment.html">Appointment</a>
+    </nav>
+  </div>
+</header>
+<main>
+
+<section class="page-hero"><div class="container">
+  <span class="eyebrow">Medical services</span>
+  <h1>Specialist care for everyday health needs.</h1>
+  <p>Click any service to open its detailed profile, doctor information and a WhatsApp-powered appointment form.</p>
+</div></section>
+
+<section class="section"><div class="container">
+  <div class="cards">
+    <div class="card service-card" data-service="cardiology"><div class="icon">♥</div><h3>Cardiology & Heart Care</h3><p>Complete cardiovascular evaluation, blood-pressure management, ECG guidance, preventive heart care and long-term cardiac follow-up.</p><div class="service-meta"><span>Meet specialist</span><span>View details →</span></div></div>
+    <div class="card service-card" data-service="diagnostics"><div class="icon">⌁</div><h3>Advanced Diagnostics</h3><p>Modern diagnostic support including laboratory coordination, imaging referrals, health screening and physician-led interpretation.</p><div class="service-meta"><span>Meet specialist</span><span>View details →</span></div></div>
+    <div class="card service-card" data-service="pediatrics"><div class="icon">✚</div><h3>Pediatrics & Child Health</h3><p>Compassionate pediatric consultations, growth monitoring, vaccination guidance and treatment plans for common childhood conditions.</p><div class="service-meta"><span>Meet specialist</span><span>View details →</span></div></div>
+    <div class="card service-card" data-service="dermatology"><div class="icon">✦</div><h3>Dermatology & Skin Care</h3><p>Evidence-based care for acne, pigmentation, allergies, infections and general skin-health concerns.</p><div class="service-meta"><span>Meet specialist</span><span>View details →</span></div></div>
+    <div class="card service-card" data-service="orthopedics"><div class="icon">⚕</div><h3>Orthopedics & Pain Care</h3><p>Musculoskeletal assessment, joint and back-pain management, injury rehabilitation guidance and orthopedic referrals.</p><div class="service-meta"><span>Meet specialist</span><span>View details →</span></div></div>
+    <div class="card service-card" data-service="gynecology"><div class="icon">♀</div><h3>Women's Health & Gynecology</h3><p>Respectful women's health consultations, routine gynecological care, preventive screening and personalized follow-up.</p><div class="service-meta"><span>Meet specialist</span><span>View details →</span></div></div>
+  </div>
+</div></section>
+
+<section class="section"><div class="container">
+  <div class="section-head"><div><span class="eyebrow">FAQs</span><h2 class="section-title">Common questions</h2></div></div>
+  <div class="faqs">
+    <div class="faq"><button type="button" aria-expanded="false"><span>How do I book a consultation?</span><span>+</span></button><div class="faq-content">Choose a service above or use the Appointment page. </div></div>
+    <div class="faq"><button type="button" aria-expanded="false"><span>Can I request a preferred doctor?</span><span>+</span></button><div class="faq-content">Yes. Open a doctor or service profile and include your preferred doctor and time in the appointment form.</div></div>
+    <div class="faq"><button type="button" aria-expanded="false"><span>Do you support general inquiries?</span><span>+</span></button><div class="faq-content">Yes. The Contact page includes a general inquiry form that uses the same programmatic messaging flow.</div></div>
+  </div>
+</div></section>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h3>Al-Kalsoom Medical Complex</h3>
+        <p>A patient-first medical facility providing accessible, compassionate and coordinated healthcare.</p>
+      </div>
+      <div>
+        <h3>Explore</h3>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a href="staff.html">Our Staff</a>
+      </div>
+      <div>
+        <h3>Patient Care</h3>
+        <a href="appointment.html">Book Appointment</a>
+        <a href="contact.html">Contact</a>
+        <a href="services.html">Medical Services</a>
+      </div>
+      <div>
+        <h3>Hours</h3>
+        <p>24/7</p>
+        <p>Emergency support: Call reception</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Al-Kalsoom Medical Complex. All rights reserved.</span>
+      
+    </div>
+  </div>
+</footer>
+<div class="toast" aria-live="polite"></div>
+<div class="modal" id="detailModal" aria-hidden="true">
+  <div class="modal-box" role="dialog" aria-modal="true" aria-label="Service details">
+    <button class="close" type="button" aria-label="Close">×</button>
+    <div id="detailBody"></div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
